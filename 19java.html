@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #keys{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            padding: 25px;
+        }
+        #calculate{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(52, 53, 53);
+            border-radius: 15px;
+            max-width: 500px;
+            overflow: hidden;
+        }
+        #display{
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            border: none;
+            background-color: rgb(56, 58, 58);
+        }
+        button{
+            width: 100px;
+            border-radius: 50px;
+            border: none;
+            background-color: rgb(117, 118, 119);
+            color: aliceblue;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="calculate">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendtodisplay('+')">+</button>
+            <button onclick="appendtodisplay('7')">7</button>
+            <button onclick="appendtodisplay('8')">8</button>
+            <button onclick="appendtodisplay('9')">9</button>
+            <button onclick="appendtodisplay('-')">-</button>
+            <button onclick="appendtodisplay('4')">4</button>
+            <button onclick="appendtodisplay('5')">5</button>
+            <button onclick="appendtodisplay('6')">6</button>
+            <button onclick="appendtodisplay('*')">*</button>
+            <button onclick="appendtodisplay('1')">1</button>
+            <button onclick="appendtodisplay('2')">2</button>
+            <button onclick="appendtodisplay('3')">3</button>
+            <button onclick="appendtodisplay('/')">/</button>
+            <button onclick="appendtodisplay('0')">0</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="caleardisplay()">c</button>
+
+        </div>
+    </div>
+    <script src="../js/1task.js"></script>
+</body>
+</html>
