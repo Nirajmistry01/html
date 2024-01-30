@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+.containar{
+    width: 1330px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.jcs {
+    justify-content: space-between;
+}
+.align {
+   align-items: center;
+}
+/* sec-1 */
+.nav::after{
+    content: "";
+    height: 3px;
+    background-color: rgb(57, 58, 58);
+    display: block;
+}
+.logo img{
+    width: 60px;
+    padding-top: 20px;
+}
+.link{
+    margin-right: 100px;
+    padding-right: 100px;
+}
+.link-1{
+    display: inline-block;
+    margin: 30px 100px 0 0 ;
+    padding: 0 100px 0 0;
+}
+.link-1 ul li {
+    list-style: none;
+    display: inline-block;
+}
+.link-1 ul li a:hover{
+    border-bottom: solid 4px  rgb(96, 96, 231);
+    padding-bottom: 37px;
+}
+.link-1 ul li a {
+    text-decoration: none;
+    font-family: Fira Sans;
+    color: rgb(43, 40, 40);
+    font-weight: 1000;
+    font-size: 20px;
+    padding:0 20px 0px 20px;
+}
+.icon{
+    font-size: 20px;
+    margin: 30px 0;
+}
+.icon a{
+    padding: 0 0 0 30px ;
+}
+.icon a:hover{
+    border-bottom: solid 4px rgb(96, 96, 231);
+    padding-bottom: 40px;
+}
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(47, 48, 49);
+    display: inline-block;
+}
+/* sec-2 */
+.text-2 div{
+    padding: 0 0 0 60px;
+    font-family: Fira Sans;
+}
+.text-2 h1{
+    color: rgb(56, 55, 55);
+    font-size: 35px;
+    padding: 50px 0 10px 0;
+    letter-spacing: 2px;
+}
+.p1 p{
+    color: black;
+    font-weight: 40px;
+    padding: 20px 0 20px 0 ;
+    font-size: 25px;
+}
+.p2 p{
+    font-size: 20px;
+    padding: 20px 0 ;
+}
+.p3 p{
+    font-size: 20px;
+    padding: 5px 0 ;
+}
+.nav-2::after{
+    content: "";
+    height: 1px;
+    background-color: rgb(205, 208, 208);
+    display: block;
+    margin-top: 15px;
+}
+.link-2{
+    display: inline-block;
+    margin: 30px 100px 0 0 ;
+    padding: 0 100px 0 0;
+}
+.link-2 ul li {
+    list-style: none;
+    display: inline-block;
+}
+.link-2 ul li a:hover{
+    border-bottom: solid 4px  rgb(72, 72, 73);
+    padding-bottom: 12px;
+}
+.link-2 ul li a {
+    text-decoration: none;
+    font-family: Fira Sans;
+    color: rgb(160, 159, 159);
+    font-weight: 1000;
+    font-size: 20px;
+    padding:0 20px 0px 20px;
+}
+/* sec-3 */
+.main-3{
+    font-family: Fira Sans;
+    color: rgb(160, 159, 159);
+    font-weight: 1000;
+    font-size: 20px;
+    margin: 35px 0;
+}
+.col-25{
+    width: 25%;
+}
